@@ -1,0 +1,32 @@
+# Node
+node_modules/
+
+# Composer / PHP dependencies
+vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+
+# PHPStorm
+.idea/
+
+# XAMPP / uploads
+uploads/
+
+# Other
+coverage/
+cache/

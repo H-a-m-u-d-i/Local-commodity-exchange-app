@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+html, body {
+    height: 100%;
+    background-image: url('../images/white_bg.jpg');
+    background-color: #eff1f5;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+body {
+    padding-top: 72px;
+    line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+ 
+

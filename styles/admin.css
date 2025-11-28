@@ -1,0 +1,103 @@
+
+.container{
+  display: flex;
+}
+body{
+  overflow: hidden;
+}
+
+.main{
+  position: relative;
+  padding: 10px;
+  width: 100%;
+}
+.cardBox {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.cardBox .card {
+  position: relative;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.cardBox .card .numbers {
+  position: relative;
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: blue;
+}
+
+.cardBox .card .cardName {
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+
+.cardBox .card:hover {
+  background: rgb(66, 66, 197);
+}
+.cardBox .card:hover .numbers,
+.cardBox .card:hover .cardName,
+.cardBox .card:hover .iconBx {
+  color: white;
+}
+
+
+.row{
+  margin-top:20px ;
+  text-transform: capitalize;
+}
+
+/* table*/
+.row {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.recentOrders, .comments{
+  position: relative;
+  display: grid;
+  max-height: 500px;
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.cardHeader h2 {
+  font-weight: 600;
+  color: blue;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+table thead td {
+  font-weight: 600;
+}
+table tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+table tr td {
+  padding: 10px;
+}
+.status {
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}

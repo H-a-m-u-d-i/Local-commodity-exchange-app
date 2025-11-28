@@ -1,0 +1,77 @@
+body{
+  margin: 0; 
+  padding: 0; 
+  background-image: url(image1.JPG);
+  background-size: cover;
+  height: 100vh;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+.register {
+ 
+  background-color:rgba(4, 75, 26, 0.905) ;
+  opacity: 80%;
+  
+  color: #fff;
+  
+
+  width: 400px;
+
+  padding: 60px 60px 60px 60px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+h1{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align:center ;
+    font: size 25px; 
+}
+
+
+.register  input[type="text"],input[type="password"],input[type="email"],input[type="addres"]
+{
+  
+
+  border: none;  
+  border-bottom: 2px solid #fff;
+  background-color: transparent ;
+  outline:none ;
+  height: 40px;
+  font: size 15px; 
+  width: 280px;
+  margin-bottom:20px ;
+  
+  color: #fff;
+  font-size: 15px;
+
+}
+.register  input[type="radio"]
+{
+  width: auto;
+}
+.register  input[type="submit"]
+{
+  
+
+  border:none;  
+  color:black ;
+  background-color:   #bf9928 ; 
+  outline:none ;
+  height: 40px;
+  border-radius:20px ;
+  width:100px ;
+  font-family:Arial, Helvetica, sans-serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.register  input[type="submit"]:hover
+{
+cursor:pointer ;
+background-color:  rgb(156, 121, 8);
+
+}
+.role2{
+  background-color:rgba(4, 75, 26, 0.905);
+  color: #fff;
+}

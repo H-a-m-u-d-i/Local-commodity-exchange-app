@@ -1,0 +1,41 @@
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  margin: 30px;
+  border: 1px solid #dddddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+tr:hover{
+  background-color: rgb(21, 134, 232);
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+input{
+  border: none;
+  background-color: rgb(188, 45, 45);
+  padding: 4px;
+  color: white;
+}
+input:hover{
+  background-color: rgb(205, 95, 95);
+}
+input:active{
+  background-color: rgb(22, 22, 161);
+}

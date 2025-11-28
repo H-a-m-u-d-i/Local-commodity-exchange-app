@@ -1,0 +1,36 @@
+
+.inside {
+
+  padding: 20px 0;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-header {
+  text-transform: uppercase;
+  line-height: 40px;
+  padding-bottom: 20px;
+  font-size: 32px;
+  color: #333;
+}
+
+.content {
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 24px;
+  color: #666;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: #777;
+}
